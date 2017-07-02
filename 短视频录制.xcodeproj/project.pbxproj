@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88A6831D1ECED5C200B2AF35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A6831C1ECED5C200B2AF35 /* main.m */; };
+		88A683201ECED5C200B2AF35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A6831F1ECED5C200B2AF35 /* AppDelegate.m */; };
+		88A683231ECED5C200B2AF35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A683221ECED5C200B2AF35 /* ViewController.m */; };
+		88A683261ECED5C200B2AF35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A683241ECED5C200B2AF35 /* Main.storyboard */; };
+		88A683281ECED5C200B2AF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A683271ECED5C200B2AF35 /* Assets.xcassets */; };
+		88A6832B1ECED5C200B2AF35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A683291ECED5C200B2AF35 /* LaunchScreen.storyboard */; };
+		88A683351ECED65000B2AF35 /* SGRecordEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A683341ECED65000B2AF35 /* SGRecordEncoder.m */; };
+		88A683381ECED68A00B2AF35 /* SGRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A683371ECED68A00B2AF35 /* SGRecordManager.m */; };
+		88A6833B1ECED69B00B2AF35 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A6833A1ECED69B00B2AF35 /* MobileCoreServices.framework */; };
+		88A6833D1ECED6A200B2AF35 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A6833C1ECED6A200B2AF35 /* AVFoundation.framework */; };
+		88A683401ECEDABB00B2AF35 /* SGRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A6833F1ECEDABB00B2AF35 /* SGRecordViewController.m */; };
+		88A683461ED2CF5F00B2AF35 /* SGRecordSuccessPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A683451ED2CF5F00B2AF35 /* SGRecordSuccessPreview.m */; };
+		88A683491ED2D7DE00B2AF35 /* UIButton+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A683481ED2D7DE00B2AF35 /* UIButton+Convenience.m */; };
+		88A6834B1ED2E8F800B2AF35 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A6834A1ED2E8F800B2AF35 /* AVKit.framework */; };
+		88A6834E1ED4247600B2AF35 /* SGRecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A6834D1ED4247600B2AF35 /* SGRecordProgressView.m */; };
+		88A683511ED52CE200B2AF35 /* SGMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A683501ED52CE200B2AF35 /* SGMotionManager.m */; };
+		88A683531ED52D9900B2AF35 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A683521ED52D9900B2AF35 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88A683181ECED5C200B2AF35 /* 短视频录制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "短视频录制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A6831C1ECED5C200B2AF35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88A6831E1ECED5C200B2AF35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88A6831F1ECED5C200B2AF35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88A683211ECED5C200B2AF35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88A683221ECED5C200B2AF35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88A683251ECED5C200B2AF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88A683271ECED5C200B2AF35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88A6832A1ECED5C200B2AF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88A6832C1ECED5C200B2AF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A683331ECED65000B2AF35 /* SGRecordEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGRecordEncoder.h; sourceTree = "<group>"; };
+		88A683341ECED65000B2AF35 /* SGRecordEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGRecordEncoder.m; sourceTree = "<group>"; };
+		88A683361ECED68A00B2AF35 /* SGRecordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGRecordManager.h; sourceTree = "<group>"; };
+		88A683371ECED68A00B2AF35 /* SGRecordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGRecordManager.m; sourceTree = "<group>"; };
+		88A6833A1ECED69B00B2AF35 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		88A6833C1ECED6A200B2AF35 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		88A6833E1ECEDABB00B2AF35 /* SGRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGRecordViewController.h; sourceTree = "<group>"; };
+		88A6833F1ECEDABB00B2AF35 /* SGRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGRecordViewController.m; sourceTree = "<group>"; };
+		88A683441ED2CF5F00B2AF35 /* SGRecordSuccessPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGRecordSuccessPreview.h; sourceTree = "<group>"; };
+		88A683451ED2CF5F00B2AF35 /* SGRecordSuccessPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGRecordSuccessPreview.m; sourceTree = "<group>"; };
+		88A683471ED2D7DE00B2AF35 /* UIButton+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Convenience.h"; sourceTree = "<group>"; };
+		88A683481ED2D7DE00B2AF35 /* UIButton+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Convenience.m"; sourceTree = "<group>"; };
+		88A6834A1ED2E8F800B2AF35 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		88A6834C1ED4247600B2AF35 /* SGRecordProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGRecordProgressView.h; sourceTree = "<group>"; };
+		88A6834D1ED4247600B2AF35 /* SGRecordProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGRecordProgressView.m; sourceTree = "<group>"; };
+		88A6834F1ED52CE200B2AF35 /* SGMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGMotionManager.h; sourceTree = "<group>"; };
+		88A683501ED52CE200B2AF35 /* SGMotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGMotionManager.m; sourceTree = "<group>"; };
+		88A683521ED52D9900B2AF35 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88A683151ECED5C200B2AF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A683531ED52D9900B2AF35 /* CoreMotion.framework in Frameworks */,
+				88A6834B1ED2E8F800B2AF35 /* AVKit.framework in Frameworks */,
+				88A6833D1ECED6A200B2AF35 /* AVFoundation.framework in Frameworks */,
+				88A6833B1ECED69B00B2AF35 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88A6830F1ECED5C200B2AF35 = {
+			isa = PBXGroup;
+			children = (
+				88A6831A1ECED5C200B2AF35 /* 短视频录制 */,
+				88A683191ECED5C200B2AF35 /* Products */,
+				88A683391ECED69B00B2AF35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88A683191ECED5C200B2AF35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88A683181ECED5C200B2AF35 /* 短视频录制.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88A6831A1ECED5C200B2AF35 /* 短视频录制 */ = {
+			isa = PBXGroup;
+			children = (
+				88A683321ECED63A00B2AF35 /* SGRecord */,
+				88A6831E1ECED5C200B2AF35 /* AppDelegate.h */,
+				88A6831F1ECED5C200B2AF35 /* AppDelegate.m */,
+				88A683211ECED5C200B2AF35 /* ViewController.h */,
+				88A683221ECED5C200B2AF35 /* ViewController.m */,
+				88A683241ECED5C200B2AF35 /* Main.storyboard */,
+				88A683271ECED5C200B2AF35 /* Assets.xcassets */,
+				88A683291ECED5C200B2AF35 /* LaunchScreen.storyboard */,
+				88A6832C1ECED5C200B2AF35 /* Info.plist */,
+				88A6831B1ECED5C200B2AF35 /* Supporting Files */,
+			);
+			path = "短视频录制";
+			sourceTree = "<group>";
+		};
+		88A6831B1ECED5C200B2AF35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88A6831C1ECED5C200B2AF35 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88A683321ECED63A00B2AF35 /* SGRecord */ = {
+			isa = PBXGroup;
+			children = (
+				88A683331ECED65000B2AF35 /* SGRecordEncoder.h */,
+				88A683341ECED65000B2AF35 /* SGRecordEncoder.m */,
+				88A683361ECED68A00B2AF35 /* SGRecordManager.h */,
+				88A683371ECED68A00B2AF35 /* SGRecordManager.m */,
+				88A6833E1ECEDABB00B2AF35 /* SGRecordViewController.h */,
+				88A6833F1ECEDABB00B2AF35 /* SGRecordViewController.m */,
+				88A683441ED2CF5F00B2AF35 /* SGRecordSuccessPreview.h */,
+				88A683451ED2CF5F00B2AF35 /* SGRecordSuccessPreview.m */,
+				88A6834C1ED4247600B2AF35 /* SGRecordProgressView.h */,
+				88A6834D1ED4247600B2AF35 /* SGRecordProgressView.m */,
+				88A6834F1ED52CE200B2AF35 /* SGMotionManager.h */,
+				88A683501ED52CE200B2AF35 /* SGMotionManager.m */,
+				88A683471ED2D7DE00B2AF35 /* UIButton+Convenience.h */,
+				88A683481ED2D7DE00B2AF35 /* UIButton+Convenience.m */,
+			);
+			path = SGRecord;
+			sourceTree = "<group>";
+		};
+		88A683391ECED69B00B2AF35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88A683521ED52D9900B2AF35 /* CoreMotion.framework */,
+				88A6834A1ED2E8F800B2AF35 /* AVKit.framework */,
+				88A6833C1ECED6A200B2AF35 /* AVFoundation.framework */,
+				88A6833A1ECED69B00B2AF35 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88A683171ECED5C200B2AF35 /* 短视频录制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A6832F1ECED5C200B2AF35 /* Build configuration list for PBXNativeTarget "短视频录制" */;
+			buildPhases = (
+				88A683141ECED5C200B2AF35 /* Sources */,
+				88A683151ECED5C200B2AF35 /* Frameworks */,
+				88A683161ECED5C200B2AF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "短视频录制";
+			productName = "短视频录制";
+			productReference = 88A683181ECED5C200B2AF35 /* 短视频录制.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88A683101ECED5C200B2AF35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "低调的魅力";
+				TargetAttributes = {
+					88A683171ECED5C200B2AF35 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = P8HFWU8B38;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 88A683131ECED5C200B2AF35 /* Build configuration list for PBXProject "短视频录制" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88A6830F1ECED5C200B2AF35;
+			productRefGroup = 88A683191ECED5C200B2AF35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88A683171ECED5C200B2AF35 /* 短视频录制 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88A683161ECED5C200B2AF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A6832B1ECED5C200B2AF35 /* LaunchScreen.storyboard in Resources */,
+				88A683281ECED5C200B2AF35 /* Assets.xcassets in Resources */,
+				88A683261ECED5C200B2AF35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88A683141ECED5C200B2AF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A683231ECED5C200B2AF35 /* ViewController.m in Sources */,
+				88A683401ECEDABB00B2AF35 /* SGRecordViewController.m in Sources */,
+				88A683461ED2CF5F00B2AF35 /* SGRecordSuccessPreview.m in Sources */,
+				88A683491ED2D7DE00B2AF35 /* UIButton+Convenience.m in Sources */,
+				88A6834E1ED4247600B2AF35 /* SGRecordProgressView.m in Sources */,
+				88A683351ECED65000B2AF35 /* SGRecordEncoder.m in Sources */,
+				88A683201ECED5C200B2AF35 /* AppDelegate.m in Sources */,
+				88A683381ECED68A00B2AF35 /* SGRecordManager.m in Sources */,
+				88A6831D1ECED5C200B2AF35 /* main.m in Sources */,
+				88A683511ED52CE200B2AF35 /* SGMotionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88A683241ECED5C200B2AF35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A683251ECED5C200B2AF35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88A683291ECED5C200B2AF35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A6832A1ECED5C200B2AF35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88A6832D1ECED5C200B2AF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88A6832E1ECED5C200B2AF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88A683301ECED5C200B2AF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8HFWU8B38;
+				INFOPLIST_FILE = "短视频录制/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gvm.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88A683311ECED5C200B2AF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8HFWU8B38;
+				INFOPLIST_FILE = "短视频录制/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gvm.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88A683131ECED5C200B2AF35 /* Build configuration list for PBXProject "短视频录制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A6832D1ECED5C200B2AF35 /* Debug */,
+				88A6832E1ECED5C200B2AF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A6832F1ECED5C200B2AF35 /* Build configuration list for PBXNativeTarget "短视频录制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A683301ECED5C200B2AF35 /* Debug */,
+				88A683311ECED5C200B2AF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88A683101ECED5C200B2AF35 /* Project object */;
+}
